@@ -7,6 +7,8 @@
 
 ## O pacote, arquivo por arquivo
 
+**Slug primeiro.** Escolha um slug kebab-case e use o MESMO em: nome da pasta (`contrib/<slug>/`), mock (`mocks/<slug>.json`), namespace i18n (`vitrine.<slug>`) e rota sugerida (`/vitrine/<slug>`). O `.vue` é a única peça fora do slug (PascalCase livre, sufixo `Page`). A promoção é cópia de arquivo — slug divergente quebra `t()` e import de mock na vitrine.
+
 ### `<Nome>Page.vue`
 
 - Escrito no idioma da vitrine: `<script setup>`, Composition API, `useI18n`, componentes canônicos do template.

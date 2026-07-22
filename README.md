@@ -24,7 +24,9 @@ contrib/<slug>/
 └── README.md             # handoff pro mantenedor (o que é, deps, rota, como testou)
 ```
 
-Exemplo completo: [`contrib/exemplo-grid-lancamentos/`](contrib/exemplo-grid-lancamentos/).
+**Um slug só, reusado em tudo**: pasta = nome do mock = namespace i18n = rota sugerida (`/vitrine/<slug>`). Só o `.vue` foge (PascalCase livre, sufixo `Page`). Slug divergente entre as peças = tela quebrada na promoção.
+
+Pacote-exemplo completo: [`contrib/lancamentos/`](contrib/lancamentos/).
 
 ## Regras (PR fora disso volta)
 

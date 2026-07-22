@@ -1,6 +1,6 @@
-# exemplo-grid-lancamentos — handoff
+# lancamentos — handoff
 
-> Pacote-exemplo do formato de submissão. Serve de modelo: copie a estrutura, troque o conteúdo.
+> Pacote-exemplo do formato de submissão. Serve de modelo: copie a estrutura, troque o conteúdo. Slug `lancamentos` reusado em pasta, mock, namespace i18n e rota — essa consistência é regra (CONTRIBUTING §Slug primeiro).
 
 ## 1. O que é
 
@@ -17,7 +17,7 @@ Grid editável (peça, não CRUD completo).
 
 ## 4. Rota sugerida
 
-`/vitrine/grid-lancamentos`, grupo "Peças (catálogo)" no índice da vitrine.
+`/vitrine/lancamentos`, grupo "Peças (catálogo)" no índice da vitrine.
 
 ## 5. Como testar
 
@@ -25,7 +25,7 @@ Grid editável (peça, não CRUD completo).
 2. `mocks/lancamentos.json` → `src/vitrine/mocks/`
 3. `i18n/*.js` → mesclar namespace `vitrine.lancamentos` nos 3 arquivos de `src/vitrine/i18n/`
 4. Rota em `src/vitrine/routes.js` (children do `VitrineShell`):
-   `{ path: 'grid-lancamentos', component: () => import('src/vitrine/telas/LancamentosGridPage.vue') }`
+   `{ path: 'lancamentos', component: () => import('src/vitrine/telas/LancamentosGridPage.vue') }`
 
 ## 6. Como foi testado
 
