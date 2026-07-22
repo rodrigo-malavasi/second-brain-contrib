@@ -6,7 +6,7 @@ Caixa de entrada de contribuições pra **vitrine** do template-frontend (golden
 
 ## Fluxo
 
-1. Monta o pacote no formato abaixo — na mão ou com a skill `/sb-propor` (já vem no claude-config do share).
+1. Monta o pacote no formato abaixo — na mão ou com a skill `/sb-contrib` (já vem no claude-config do share).
 2. Abre PR criando `contrib/<slug>/`.
 3. Mantenedor revisa → integra no golden → próximo bundle do share entrega pra todo mundo.
 4. A pasta sai do repo: PR merged = promovido; PR closed = recusado (motivo fica no PR).
