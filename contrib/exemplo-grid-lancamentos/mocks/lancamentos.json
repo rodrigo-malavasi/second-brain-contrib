@@ -1,0 +1,9 @@
+{
+  "categorias": ["Insumos", "Serviços", "Logística", "Manutenção"],
+  "lancamentos": [
+    { "id": "l1", "categoria": "Insumos", "qtd": 10, "valorUnit": 25.5, "descontoPct": 0 },
+    { "id": "l2", "categoria": "Serviços", "qtd": 2, "valorUnit": 480, "descontoPct": 10 },
+    { "id": "l3", "categoria": "Logística", "qtd": 1, "valorUnit": 320, "descontoPct": 5 },
+    { "id": "l4", "categoria": "Manutenção", "qtd": 4, "valorUnit": 150, "descontoPct": 0 }
+  ]
+}
