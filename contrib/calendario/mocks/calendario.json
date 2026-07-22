@@ -1,0 +1,37 @@
+{
+  "usuarioAtual": "u1",
+  "usuarios": [
+    { "id": "u1", "nome": "Você" },
+    { "id": "u2", "nome": "Ana Prado" },
+    { "id": "u3", "nome": "Bruno Lima" },
+    { "id": "u4", "nome": "Carla Souza" }
+  ],
+  "recursos": [
+    { "id": "r1", "nome": "Sala Vermelha", "capacidade": 12, "cor": "#C4574F", "unidade": { "nome": "Matriz" } },
+    { "id": "r2", "nome": "Sala Azul", "capacidade": 8, "cor": "#3B82C4", "unidade": { "nome": "Matriz" } },
+    { "id": "r3", "nome": "Sala Verde", "capacidade": 6, "cor": "#4C9F70", "unidade": { "nome": "Matriz" } },
+    { "id": "r4", "nome": "Auditório", "capacidade": 40, "cor": "#8E5BC4", "unidade": { "nome": "Anexo" } },
+    { "id": "r5", "nome": "Focus Room", "capacidade": 3, "unidade": { "nome": "Anexo" } }
+  ],
+  "eventos": [
+    { "id": "e1", "tipo": "evento", "recursoId": "r1", "titulo": "Daily do time", "diaOffset": 0, "inicio": "08:00", "fim": "09:00", "responsavelId": "u2" },
+    { "id": "e2", "tipo": "evento", "recursoId": "r2", "titulo": "Reunião em andamento", "ancora": "agora", "responsavelId": "u1" },
+    { "id": "e3", "tipo": "evento", "recursoId": "r3", "titulo": "Alinhamento comercial", "diaOffset": 0, "inicio": "14:00", "fim": "15:30", "responsavelId": "u1" },
+    { "id": "e4", "tipo": "evento", "recursoId": "r1", "titulo": "Review de sprint", "diaOffset": 0, "inicio": "16:00", "fim": "17:00", "responsavelId": "u3" },
+    { "id": "e5", "tipo": "bloqueio", "recursoId": "r4", "titulo": "Manutenção do projetor", "diaOffset": 0, "inicio": "12:00", "fim": "13:30" },
+    { "id": "e6", "tipo": "evento", "recursoId": "r2", "titulo": "Entrevista", "diaOffset": -1, "inicio": "10:00", "fim": "11:00", "responsavelId": "u4" },
+    { "id": "e7", "tipo": "evento", "recursoId": "r5", "titulo": "1:1 com liderança", "diaOffset": -1, "inicio": "15:00", "fim": "15:30", "responsavelId": "u1" },
+    { "id": "e8", "tipo": "evento", "recursoId": "r3", "titulo": "Planejamento trimestral", "diaOffset": 1, "inicio": "09:00", "fim": "12:00", "responsavelId": "u2" },
+    { "id": "e9", "tipo": "evento", "recursoId": "r4", "titulo": "Treinamento onboarding", "diaOffset": 1, "inicio": "14:00", "fim": "17:00", "responsavelId": "u3" },
+    { "id": "e10", "tipo": "evento", "recursoId": "r1", "titulo": "Reunião com fornecedor", "diaOffset": 1, "inicio": "10:30", "fim": "11:30", "responsavelId": "u1" },
+    { "id": "e11", "tipo": "evento", "recursoId": "r2", "titulo": "Retrospectiva", "diaOffset": 2, "inicio": "15:00", "fim": "16:00", "responsavelId": "u4" },
+    { "id": "e12", "tipo": "evento", "recursoId": "r5", "titulo": "Café com o time", "diaOffset": 2, "inicio": "09:00", "fim": "09:30", "responsavelId": "u2" },
+    { "id": "e13", "tipo": "evento", "recursoId": "r3", "titulo": "Demo pro cliente", "diaOffset": 3, "inicio": "11:00", "fim": "12:00", "responsavelId": "u1" },
+    { "id": "e14", "tipo": "bloqueio", "recursoId": "r4", "titulo": "Limpeza técnica", "diaOffset": 3, "inicio": "08:00", "fim": "10:00" },
+    { "id": "e15", "tipo": "evento", "recursoId": "r1", "titulo": "Kickoff projeto X", "diaOffset": 7, "inicio": "09:00", "fim": "10:30", "responsavelId": "u3" },
+    { "id": "e16", "tipo": "evento", "recursoId": "r2", "titulo": "Comitê de arquitetura", "diaOffset": 8, "inicio": "14:00", "fim": "16:00", "responsavelId": "u1" },
+    { "id": "e17", "tipo": "evento", "recursoId": "r3", "titulo": "Workshop de UX", "diaOffset": 9, "inicio": "13:00", "fim": "17:00", "responsavelId": "u4" },
+    { "id": "e18", "tipo": "evento", "recursoId": "r4", "titulo": "All-hands", "diaOffset": -6, "inicio": "16:00", "fim": "17:00", "responsavelId": "u2" },
+    { "id": "e19", "tipo": "evento", "recursoId": "r1", "titulo": "Planejamento", "diaOffset": -5, "inicio": "10:00", "fim": "11:00", "responsavelId": "u1" }
+  ]
+}
