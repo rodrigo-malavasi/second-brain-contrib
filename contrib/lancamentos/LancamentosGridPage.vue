@@ -56,7 +56,7 @@
 <script setup>
 // LANÇAMENTOS = demo do DataGrid com os 4 editores de célula (select, number, currency,
 // percent) + coluna calculada em slot + ações por linha + total no bottom-row + add-row
-// na borda (Enter/Tab/↓ na última célula cria linha nova).
+// na borda (Enter na última célula cria linha nova; Tab é circular, ↓ para).
 import { ref, computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import DataGrid from 'src/components/shared/grid/DataGrid.vue';

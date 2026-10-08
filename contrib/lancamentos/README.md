@@ -4,7 +4,7 @@
 
 ## 1. O que é
 
-Tela de lançamentos com grid editável célula a célula — demonstra os 4 editores do `DataGrid` (select, number, currency, percent), coluna calculada, remoção por linha, total no rodapé e criação de linha pela borda (Enter/Tab/↓ na última célula).
+Tela de lançamentos com grid editável célula a célula — demonstra os 4 editores do `DataGrid` (select, number, currency, percent), coluna calculada, remoção por linha, total no rodapé e criação de linha pela borda (Enter na última célula; Tab é circular na linha e ↓ para na borda).
 
 ## 2. Arquétipo
 
